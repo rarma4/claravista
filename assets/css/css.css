@@ -1,0 +1,540 @@
+html{
+	max-width: 1920px;
+    margin: 0 auto;
+    width: auto;
+}
+body{
+	height: 100% !important;
+	position: relative;
+	font-family: 'Varela round', sans-serif;
+}
+h2{
+	text-align: center;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+.dados-h2{
+	text-align: center;
+	padding-top: 130px;
+	padding-bottom: 50px;
+	text-transform: uppercase;
+}
+.secao-titulo{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+}
+.secao-subtitulo{
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 90px;
+	color: #f5a322;
+	font-size:18px;
+}
+.hr{
+	width: 100px;
+	border-top: 5px #a56c12 solid; 
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.texto-banner{
+	font-size: 18px;
+	color: #737373;
+	padding-top: 15px;
+	padding-left: 40px;
+}
+.header{
+	background: #fff;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 20px;
+}
+.header .navbar{
+	padding-left: 0;
+	padding-right :0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.hero-banner{
+	height: 500px;
+	background-image: url('../../assets/img/banner_claravista.jpg');
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.solucoes{
+	padding-top: 30px;
+	padding-left: 35px;
+	padding-right: 15px;
+}
+.logotipo{
+	margin-left: 35px;
+	margin-top: 20px;
+}
+.menu .nav-item .nav-link{
+	padding-bottom: 0;
+}
+.menu{
+	padding-right: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+.menu a{
+	color: #000000;
+}
+.menu a:hover{
+	color: #f5a322;
+}
+.button{
+	padding: 5px 30px 5px 30px;
+	margin-left: 40px;
+	margin-top: 15px;
+	border-radius: 0px;
+	border-width: 2px;
+}
+.dados-titulo{
+	font-size: 27px;
+	text-align: center;
+	line-height: 0.5;
+}
+.segundario-texto{
+	text-align: center;
+	color: #ababab;
+	font-size: 20px;
+	line-height: 1.0;
+}
+.row .card-imagem{
+	background: #f1f1f1;
+	background-size: cover;
+}
+.row .card-informacao{
+	background: #f5a322;
+}
+.row .informacao-titulo{
+	font-size: 32px;
+	color: #8f5c0b;
+	line-height: 1.0;
+	padding-top: 20px;
+}
+.informacao-titulo.integracoes{
+	padding-top: 35px;
+}
+.row .informacao-secundaria{
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 1.4;
+}
+.saiba-como a{
+	padding: 5px 20px 5px 20px;
+	border-radius: 0px;
+	border-width: 2px;
+	border-color: #a56c12;
+	color: #a56c12;
+}
+.secao-crm-background{
+	padding-bottom: 150px;
+	position: relative;
+	background-image: url(../../assets/img/rodape-fundo.jpg);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+.secao-crm-background ul{
+	line-height: 1.5;
+	padding-bottom: 25px;
+	font-size: 18px;
+}
+.secao-crm-background ul li{
+	margin-left: 20px;
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #6d6d6d;
+	color: #ffffff;
+	text-align: center;
+	padding:15px 20px;
+	font-size: 14px;
+}
+.menu-mobile, .nav-mobile{
+	display: none;
+	text-align: center;
+}
+.menu-mobile .nav .nav-item{
+	display: block;
+	width: 100%;
+}
+.nav-mobile{
+	font-size: 36px;
+}
+a.nav-link.active {
+    color: #f5a322;
+}
+.icon{
+	color: #000000!important;
+}
+.bannerContato, .bannerCliente{
+	height: 308px;
+}
+.bannerSolucoes{
+	height: 456px;
+	text-align: center;
+	margin-top: -20px;
+}
+
+img.imgSolucoes {
+	margin-top: 50px;
+}
+.txtSolucoes{
+	color:#737373;
+	margin-top: 50px;
+
+}
+.btnSolucoes{
+	background-color:rgba(255, 255, 255, 0.4);
+	color:#737373;
+	border:solid 2px #737373;
+	padding: 5px 30px 5px 30px;
+	font-size: 1.0em;
+	margin-top: 50px;
+}
+.blocoSolucoesClaravista{
+	padding-bottom: 50px;
+	padding-top: 20px;
+	width: 80%;
+	margin:0 auto;
+}
+.imgSolucoesClaravista{
+	margin-top: 30px;
+	max-width: 200px;
+}
+.titleSolucoesClaravista{
+	color:#636363;
+	font-size: 30px;
+	margin-top: 30px;
+}
+.txtSolucoesClaravista1{
+	color:#f5a322;
+	font-size: 14px;
+}
+.txtSolucoesClaravista2{
+	color:#636363;
+	font-size: 12px;
+}
+.lineSolucoesClaravista{
+	height:280px;
+}
+.blocoDiferenciais{
+	background: #f5a322;
+	text-align: center;
+}
+.blocoDiferenciaisLogo{
+	background: #f5a322;
+	text-align: center;
+	padding: 10px 100px;
+}
+.titleDiferenciais{
+	color:#fff;
+	margin-bottom: 10px;
+	font-size: 25px;
+	margin:0 auto;
+	padding-top: 30px;
+}
+.imgDiferenciais{
+	margin-top: 20px;
+	max-width: 80px;
+}
+.txtDiferenciais{
+	color:#8f5c0b;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.titleVantagens{
+	color:#f5a322;
+	margin-bottom: 10px;
+	font-size: 25px;
+	margin:0 auto;
+	padding-top: 30px;
+}
+.txtVantagens{
+	margin:0 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+.blocoVantagens{
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	padding: 30px 10px;
+}
+.blocoFormulario{
+	padding-bottom: 150px;
+	padding-top: 20px;
+	width: 80%;
+	margin:0 auto;
+}
+.blocoClientesLogo{
+	padding-bottom: 50px;
+	padding-top: 20px;
+	width: 80%;
+	margin:0 auto;
+}
+.logoVantagens{
+	margin-top: 20px;
+}
+
+
+.blocoNumeros{
+	width: 80%;
+	margin: 0 auto;
+}
+.blocoNumA{
+	background: #f3f3f3;
+	padding-top: 20px;
+}
+.blocoNumC{
+	background: #f3f3f3;
+	padding-top: 30px;
+}
+.txtBlocoNumA1{
+	color:#717171;
+	text-align: center;
+	font-size: 40px;
+
+}
+.txtBlocoNumA2{
+	color:#717171;
+	text-align: center;
+	font-size: 14px;
+}
+.strong{
+	font-weight: 600;
+}
+.blocoNumB{
+	background: #df8d0c;
+	padding: 50px 10px;
+	
+}
+.txtBlocoNumB{
+	color:#fff;
+	text-align: center;
+	font-size: 30px;
+	line-height: 0.8;
+	margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.txtBlocoNumB2{
+	font-size: 60px;
+}
+.titleBlocoNumC{
+	color:#f5a322;
+	font-size: 30px;
+	text-align: center;
+	line-height: 1;
+}
+.txtBlocoNumC{
+	color:#717171;
+	font-size: 12px;
+	text-align: center;
+	margin-top: -10px;
+}
+.txtContatoImg, .txtClienteImg{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.imgContato{
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+
+}
+.txtContato{
+	text-align: center;
+	font-weight: 500;
+	margin-top: 20px;
+
+}
+.btnyellowForm{
+    background-color: #f59b00;
+    color:#fff;
+    border: 0;
+	padding: 5px 50px 5px 50px;
+	float:right;
+}
+.btnyellowForm:hover{
+    background-color: #f59b00;
+    color:#000;
+    border: 0;
+}
+.formulario{
+    padding: 6px 6px;
+}
+.formulario label{
+ font-size: 0.8em;
+ margin-bottom: -10px;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    font-size: 0.8em;
+	margin-bottom: -15px;
+	border-radius: 0px;
+}
+.titleClientes{
+	color:#f59b00;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+.blocobtnNumeros{
+	text-align: center;
+	padding-bottom: 130px;
+	margin-top: 20px;
+}
+.btnNumeros{
+	background-color:rgba(255, 255, 255, 0);
+	color:#000;
+	border:solid 2px #000;
+	padding: 5px 30px 5px 30px;
+	font-size: 1.0em;
+}
+.btnVantagens{
+	background-color:rgba(255, 255, 255, 0);
+	color:#f59b00;
+	border:solid 2px #f59b00;
+	padding: 5px 30px 5px 30px;
+	font-size: 1.0em;
+}
+@media (max-width: 499px){
+	.row.header .col-sm{
+		background-size: cover !important;
+		background-position: center bottom;
+	}
+	.secao-crm-background{
+		background-position: 75% bottom;
+		background-image: url(../../assets/img/rodape-fundo-mobile.jpg);
+	}
+	nav.row.topmenu.navbar.d-flex.align-items-end {
+		margin-bottom: 20px;
+	}
+	nav#myLinks {
+		margin-bottom: 10px;
+	}
+
+	.menu{
+		display: none;
+	}
+	.icon{
+		margin-right: 10px;
+	}
+	.logotipo{
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.nav-mobile{
+		display: block;
+	}
+	.topmenu .col-sm-9, .topmenu .col-sm-2{
+		width: auto;
+	}
+	.secao-titulo,.secao-subtitulo{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.dados-h2{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.informacao-titulo, .informacao-secundaria, .saiba-como {
+		text-align: center;
+	}
+	.hr{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav-link{
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #000000;
+		margin-bottom: 15px;
+	}
+	.blocoFormulario{
+		width: 100%;
+	}
+	.blocoClientesLogo{
+		width: 80%;
+		text-align: center;
+	}
+	.blocoClientesLogo img{
+		margin-top: 20px;
+	}
+	.btnyellowForm{
+		width: 100%;
+	}
+
+	.blocoNumeros{
+		width: 100%;
+	}
+	.blocobtnNumeros{
+		text-align: center;
+		padding-bottom: 170px;
+	}
+	.blocoSolucoesClaravista{
+		width: 100%;
+	}
+	.lineSolucoesClaravista{
+		height:250px;
+	}
+	.imgSolucoesClaravista{
+		max-width: 200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+	}
+	.titleSolucoesClaravista{
+		color:#636363;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.txtSolucoesClaravista1{
+		color:#f5a322;
+		font-size: 14px;
+		text-align: center;
+	}
+	.txtSolucoesClaravista2{
+		color:#636363;
+		font-size: 12px;
+	}
+
+	.txtDiferenciais{
+		color:#8f5c0b;
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	.blocoDiferenciaisLogo{
+		background: #f5a322;
+		text-align: center;
+		padding: 1px 1px;
+	}
+	.logoVantagens{
+		margin-top: 40px;
+	}
+	.logoVantagens2{
+		margin-top: 50px;
+	}
+
+}

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <title>ClaraVista</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swapp&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+
+  </head>
+  <body>
+   <div class="container-fluid">
+      <header class="header">
+        <nav class="row topmenu navbar d-flex align-items-end">
+          <div class="col-lg-2 col-sm-9 col-xs-9">
+            <a href="index.html">
+              <img class="logotipo" src="assets/img/claravista.png" class="mx-auto d-block" alt="Claravista" title="Claravista" />
+            </a>
+          </div>
+          <div class="col-lg-9 col-sm-2 col-xs-2 nav-mobile">
+            <a href="javascript:void(0);" class="icon" onclick="abreFechaMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-lg-9 col-sm-auto">
+            <ul class="nav justify-content-end menu">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="solucoes.html">Soluções e Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav class="row topmenu navbar menu-mobile" id="myLinks">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="solucoes.html">Soluções e Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <session class="">
+        <div class="row" >
+          <div class="bannerContato col-sm "style="background-image: url('assets/img/bannerContato.png');">
+            <img class="img-fluid txtContatoImg " src="assets/img/txtContato.png" class=""/>
+          </div>
+        </div>
+      </session>
+      <session class=" ">
+        <div class="row blocoFormulario">
+          <div class="col-sm">
+            <img class="img-fluid imgContato" src="assets/img/imgContato.png">
+            <p class="txtContato">Aplicadas às</br>suas necessidades</p>
+          </div>
+          <div class="col-sm formulario">
+            <!--form name="meu_form" action=""-->
+            <form action="contact_me.php" id="meu_form" method="post" name="meu_form">
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="inputName">Nome*</label>
+                  <input type="text" class="form-control" id="inputName" name="inputName" required placeholder="">
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputEmpresa">Empresa*</label>
+                  <input type="text" class="form-control" id="inputEmpresa" name="inputEmpresa" placeholder=""required>
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputCargo">Cargo*</label>
+                  <input type="text" class="form-control" id="inputCargo" name="inputCargo" placeholder=""required>
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputEmail">E-mail*</label>
+                  <input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder=""required>
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputConfEmail">Confirmação de e-mail*</label>
+                  <input type="email" class="form-control" id="inputConfEmail" name="inputConfEmail" placeholder=""required>
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputTel">Telefone*</label>
+                  <input type="text" class="form-control" id="inputTel" name="inputTel" placeholder=""required>
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputMsg">Mensagem*</label>
+                  <textarea class="form-control" id="inputMsg" name="inputMsg" rows="3"required></textarea>
+                </div>
+              </div> 
+              <button type="submit" class="btnyellowForm" onclick="return valida_campus();send_mail();">enviar</button>
+            </form>
+          </div>
+        </div>
+      </session>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="col">
+            <p>Fone: (11) 3061.3120<br>
+            Av. Paulista, 925 - 11 andar - Jd. Paulista - São Paulo - SP - CEP: 01420-000<br>
+            &copy; Copyright 2020 CLARAVISTA. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"async></script>
+  </body>
+</html>

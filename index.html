@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <title>ClaraVista</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swapp&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+
+  </head>
+  <body>
+   <div class="container-fluid">
+      <header class="header">
+        <nav class="row topmenu navbar d-flex align-items-end">
+          <div class="col-lg-2 col-sm-9 col-xs-9">
+            <a href="index.html">
+              <img class="logotipo" src="assets/img/claravista.png" class="mx-auto d-block" alt="Claravista" title="Claravista" />
+            </a>
+          </div>
+          <div class="col-lg-9 col-sm-2 col-xs-2 nav-mobile">
+            <a href="javascript:void(0);" class="icon" onclick="abreFechaMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-lg-9 col-sm-auto">
+            <ul class="nav justify-content-end menu">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="solucoes.html">Soluções e Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav class="row topmenu navbar menu-mobile" id="myLinks">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="solucoes.html">Soluções e Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        <div class="row ">
+          <div class="col-sm hero-banner">
+              <img class="img-fluid solucoes" src="assets/img/solucoes.png" alt="Soluções em Marketing de Dados" title="Soluções em Marketing de Dados">
+              <p class="texto-banner">
+                 Gere campanhas dinâmicas e acompanhe o comportamento do usuário <br>
+                 durante todo o trajeto de navegação, a partir do desenvolvimento <br>
+                 e implementação de tags
+              </p>
+              <p>
+                <a href="contato.html" type="button" class="btn btn-outline-warning button">comece agora</a>
+              </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container">
+              
+              <div class="row">
+                <div class="col">
+                  <h2>Dados que fazem a diferença</h2>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="col-sm-4">
+                    <p class="dados-titulo"><img class="img-fluid solucoes" src="assets/img/abandono.png" alt="67% de abandono nos carrinhos de compra online" title="67% de abandono nos carrinhos de compra online"></p>
+                    <p class="dados-titulo">67% de abandono</p>
+                    <p class="segundario-texto">nos carrinhos de<br> compra online </p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="dados-titulo"> <img class="img-fluid solucoes" src="assets/img/tempo.png" alt="19h é o tempo médio entre a visita e a compra nos abandonados" title="19h é o tempo médio entre a visita e a compra nos abandonados"></p>
+                    <p class="dados-titulo">19h é o tempo médio</p>
+                    <p class="segundario-texto">entre a visita e a compra<br> dos abandonados</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="dados-titulo"><img class="img-fluid solucoes" src="assets/img/carrinhos.png" alt="72% dos carrinhos abandonados não estão perdidos" title="72% dos carrinhos abandonados não estão perdidos"></p>
+                    <p class="dados-titulo">72% dos carrinhos</p>
+                    <p class="segundario-texto">abandonados não<br> estão perdidos</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h2 class="dados-h2">Transformando dados em valores</h2>
+          </div>
+        </div>
+              
+        <div class="row">
+            <div class="col-sm col-sm card-imagem"> 
+              <img class="img-fluid" src="assets/img/dados.jpg" alt="Dados em valor para o negócio" title="Dados em valor para o negócio">
+            </div>
+
+            <div class="col-sm card-informacao">
+              <p class="informacao-titulo">Dados em valor<br> para o negócio</p>
+
+              <p class="hr"></p>
+             
+              <p class="informacao-secundaria">
+                 Diversas empresas já realizam<br>
+                 campanhas de mídia online,<br>
+                 geram tráfego e possuem uma <br>
+                 extensa base de clientes. <br>
+                 Mas para que gerem resultados,<br> 
+                 precisam estar integrados<br> 
+                 à ferramentas que transformem<br> 
+                 estes dados em valor para <br>
+                 o negócio.
+               </p>  
+            
+              <p class="saiba-como"> <a href="contato.html" type="button" class="btn btn-outline-warning ">saiba como</a></p>            
+            </div>
+
+            <div class="col-sm col-sm card-imagem">
+              <img class="img-fluid" src="assets/img/navegacao.jpg" alt="Navegação de usuários" title="Navegação de usuários">
+            </div>
+
+            <div class="col-sm card-informacao">
+
+              <p  class="informacao-titulo">Navegação <br>de usuários</p>
+
+              <p class="hr"></p>
+             
+              <p class="informacao-secundaria">
+                A ClaraVista é uma ferramenta de <br>
+                captura de dados de navegação de <br>
+                usuários. A partir da instalação de<br>
+                uma apenas uma linha de código em <br>
+                um site ou e-commerce capturamos <br>
+                todos os eventos de todos os <br>
+                usuários. Com a identificação de cada<br>
+                usuário que se registra por <br>
+                e-mail, criamos perfis individuais. 
+               </p>  
+            
+                <p  class="saiba-como"> <a href="contato.html" type="button" class="btn btn-outline-warning">saiba como</a></p>    
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-sm card-informacao order-2 order-lg-1">
+              <p class="informacao-titulo">Abastecemos <br>ferramentas</p>
+
+              <p class="hr"></p>
+             
+              <p class="informacao-secundaria">
+                 Com estas informações, <br>
+                 clusterizamos audiências, <br>
+                 enriquecemos o perfil <br>
+                 com informações off <br>
+                 line ou de terceiros <br>
+                 e abastecemos ferramentas<br> 
+                 sde marketing, <br>
+                 vendas e CRM.  <br>
+               </p>  
+            
+              <p class="saiba-como"> <a href="contato.html" type="button" class="btn btn-outline-warning">saiba como</a></p>            
+            </div>
+
+            <div class="col-sm col-sm card-imagem order-1 order-lg-2">
+              <img class="img-fluid" src="assets/img/abastecendo.jpg" alt="Dados em valor para o negócio" title="Dados em valor para o negócio">
+            </div>
+
+            <div class="col-sm card-informacao order-4 order-lg-3">
+
+              <p  class="informacao-titulo integracoes">Integrações</p>
+
+              <p class="hr"></p>
+             
+              <p class="informacao-secundaria">
+                 Hoje atendemos dois dos maiores <br>
+                 varejistas do Brasil e temos <br>
+                 integrações com Salesforce e <br>
+                 Oracle Marketing Orchestration. <br>
+                 Marketing em tempo real, <br>
+                 apoio a força de vendas e <br>
+                 enriquecimento de perfil ao <br>
+                 alcance de todos quando <br>
+                 se utiliza o ClaraVista.  
+               </p>  
+            
+                <p class="saiba-como"> <a href="contato.html" type="button" class="btn btn-outline-warning">saiba como</a></p>    
+            </div>
+
+            <div class="col-sm col-sm card-imagem order-3 order-lg-4">
+              <img class="img-fluid" src="assets/img/integracao.jpg" alt="Navegação de usuário" title="Navegação de usuário">
+            </div>
+
+        </div>
+
+        
+
+        <div class="row justify-content-md-center secao-crm-background">
+          <div class="col">
+            <div class="row">
+              <div class="col">
+                <h2 class="secao-titulo">Aperfeiçoe seu CRM</h2>
+                <h3 class="secao-subtitulo">Capture dados durante todo o trajeto de navegação</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-1 col-sm-auto">
+                &nbsp;
+              </div>
+              <div class="col-lg-6 col-sm-auto">
+                <ul>
+                  <li>
+                    Analise as informações em um dashboard detalhado; 
+                  </li>
+                  <li>
+                    Gerencie campanhas dinâmicas;
+                  </li>
+                  <li>
+                    Recupere carrinhos abandonados;
+                  </li>
+                  <li>
+                    Potencialize suas vendas (a partir de serviços <br>e ferramentas de otimização de dados);
+                  </li>
+                  <li>
+                    Transforme dados em valor.
+                  </li>
+                </ul>
+                <p>
+                  <a href="contato.html" type="button" class="btn btn-outline-warning button">saiba como</a>
+                </p>
+              </div>
+              <div class="col-lg-5 col-sm-auto">
+                &nbsp;
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="col">
+            <p>Fone: (11) 3061.3120<br>
+            Av. Paulista, 925 - 11 andar - Jd. Paulista - São Paulo - SP - CEP: 01420-000<br>
+            &copy; Copyright 2020 CLARAVISTA. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"async></script>
+  </body>
+</html>

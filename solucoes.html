@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <title>ClaraVista</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swapp&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+
+  </head>
+  <body>
+   <div class="container-fluid">
+      <header class="header">
+        <nav class="row topmenu navbar d-flex align-items-end">
+          <div class="col-lg-2 col-sm-9 col-xs-9">
+            <a href="index.html">
+              <img class="logotipo" src="assets/img/claravista.png" class="mx-auto d-block" alt="Claravista" title="Claravista" />
+            </a>
+          </div>
+          <div class="col-lg-9 col-sm-2 col-xs-2 nav-mobile">
+            <a href="javascript:void(0);" class="icon" onclick="abreFechaMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-lg-9 col-sm-auto">
+            <ul class="nav justify-content-end menu">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="solucoes.html">Soluções e Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav class="row topmenu navbar menu-mobile" id="myLinks">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="solucoes.html">Soluções e Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <session class="container ">
+        <div class="row" >
+          <div class="col-sm bannerSolucoes"style="background-image: url('assets/img/bannerSolucoes.png');">
+            <img class="img-fluid imgSolucoes" src="assets/img/txtSolucoes.png"/>
+            <p class="txtSolucoes">Reativação de clientes inativos, clusterização de clientes, nutrição de leads para</br> CRM, captura de dados de navegação, recuperação de vendas, carrinho, check-out</br> e assinaturas abandonados.</p> 
+            <div class="">
+              <a href="contato.html"><button type="button" class="btnSolucoes">melhore seus resultados</button></a>
+            </div>
+          </div>
+        </div>
+      </session>
+
+      <session class="container ">
+        <div class="row blocoSolucoesClaravista">
+          <div class="col-12 col-md-3 lineSolucoesClaravista">
+            <img class="img-fluid imgSolucoesClaravista" src="assets/img/imgSolucoes1.png">
+          </div>
+          <div class="col-12 col-md-9 ">
+            <p class="titleSolucoesClaravista">ClaraVista Customer 360</p>
+            <p class="txtSolucoesClaravista1">Integrado com Oracle Responsys e Salesforce Marketing Cloud, além de outras ferramentas de marketing. Desta forma, toda a sua comunicação feita por meio de interação online estará integrada à sua ferramenta de Marketing Cloud.</p>
+            <p class="txtSolucoesClaravista2">• Captura da navegação online dos usuários sempre que estiverem identificados e associação dos dados ao perfil;</br>
+              • Análise e cruzamento de informações offline e de terceiros para enriquecimento das informações do seu CRM, tornando suas campanhas de marketing mais atrativas;</br>
+              • Recuperação de carrinho de compra, carrinho abandonado, retarget por interesse de categoria e por produto;</br>
+              • Dashboard para visualização de comportamento de usuários identificados para geração de audiências, seja clusterização de frequência e recência, clientes que efetuaram ou até abandonaram transações, gerando audiências segmentadas para a ferramenta de Marketing Automation.</p>
+          </div>
+          <div class="col-12 col-md-3 lineSolucoesClaravista">
+            <img class="img-fluid imgSolucoesClaravista" src="assets/img/imgSolucoes2.png">
+          </div>
+          <div class="col-12 col-md-9 ">
+            <p class="titleSolucoesClaravista">ClaraVista E-mail Cleaner</p>
+            <p class="txtSolucoesClaravista1">Recurso adicional do ClaraVista, realiza uma limpeza da base de dados e prepara o mailing para:</p>
+            <p class="txtSolucoesClaravista2">• Classificação dos e-mails válidos, inválidos, spamtraps, etc;</br>
+              • Comportamento, distribuição por provedor, popularidade, e mais;</br>
+              • Proteção contra e-mails inválidos para forms de cadastro (real-time);</br>
+              • Correção de domínios;</br>
+              • Melhora na performance das campanhas de marketing.</p>
+          </div>
+          <div class="col-12 col-md-3 lineSolucoesClaravista">
+            <img class="img-fluid imgSolucoesClaravista" src="assets/img/imgSolucoes3.png">
+          </div>
+          <div class="col-12 col-md-9 ">
+            <p class="titleSolucoesClaravista">ClaraVista Re-Engage</p>
+            <p class="txtSolucoesClaravista1">Recuperação de clientes inativos, engage clientes inativos que não respondem por e-mail</p>
+            <p class="txtSolucoesClaravista2">• Retome contato com clientes que há muito não reagem às suas campanhas por e-mail .</br>
+              • Utilizamos nossa estrutura multi IPs mantendo a entregabilidade das suas campanhas de e-mail apartadas. </br>
+              • Alimentamos sua base de campanhas ativas, incrementando o LTV "Life Time Value", da sua base de clientes. </br>
+              • Operação 100% nossa, zero trabalho para seu time de marketing .</p>
+          </div>
+        </div>
+
+        <div class="row blocoDiferenciais">
+          <h3 class="titleDiferenciais">Diferenciais Produtos CLARAVISTA</h3>
+        </div>
+        <div class="row blocoDiferenciaisLogo">
+            <div class="col-sm">
+              <img class="img-fluid imgDiferenciais" src="assets/img/imgDiferenciais1.png">
+              <p class="txtDiferenciais">Capture e-mails ativos </br> em real time junto a sua</br> plataforma de e-commerce</p>
+            </div>
+            <div class="col-sm">
+              <img class="img-fluid imgDiferenciais" src="assets/img/imgDiferenciais2.png">
+              <p class="txtDiferenciais">Resgate clientes inativos </br>converta-os de </br>
+                maneira assertiva</p>
+            </div>
+            <div class="col-sm">
+              <img class="img-fluid imgDiferenciais" src="assets/img/imgDiferenciais3.png">
+              <p class="txtDiferenciais">Data Inteligence: </br>capture, classifique e ative seu </br>dados de navegação</p>
+            </div>
+            <div class="col-sm">
+              <img class="img-fluid imgDiferenciais" src="assets/img/imgDiferenciais4.png">
+              <p class="txtDiferenciais">Reative clientes </br>desengajados e gere valor</br> para o seu negócio</p>
+            </div>
+        </div>
+
+        
+        <div class="row">
+          <h3 class="titleVantagens">VANTAGENS</h3>
+        </div>
+        <div class="row">
+          <p class="txtVantagens">As soluções Claravista rentabilizam seus negócios digitais otimizando e gerando valor com seus</br> dados. Sua empresa tem dados, nós transformamos estes dados em valor.</p>
+        </div>
+
+        <div class="row blocoVantagens">
+          <div class="col-sm">
+            <img class="img-fluid logoVantagens" src="assets/img/imgVantagens1.png">
+          </div>
+          <div class="col-sm">
+            <img class="img-fluid logoVantagens" src="assets/img/imgVantagens2.png">
+          </div>
+          <div class="col-sm">
+            <img class="img-fluid logoVantagens2" src="assets/img/imgVantagens3.png">
+          </div>
+        </div>
+
+      <div class="blocobtnNumeros">
+        <a href="contato.html"><button type="button" class="btnVantagens">comece agora</button></a>
+      </div>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="col">
+            <p>Fone: (11) 3061.3120<br>
+            Av. Paulista, 925 - 11 andar - Jd. Paulista - São Paulo - SP - CEP: 01420-000<br>
+            &copy; Copyright 2020 CLARAVISTA. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"async></script>
+  </body>
+</html>

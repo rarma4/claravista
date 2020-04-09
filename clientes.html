@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <title>ClaraVista</title>
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swapp&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+
+  </head>
+  <body>
+   <div class="container-fluid">
+      <header class="header">
+        <nav class="row topmenu navbar d-flex align-items-end">
+          <div class="col-lg-2 col-sm-9 col-xs-9">
+            <a href="index.html">
+              <img class="logotipo" src="assets/img/claravista.png" class="mx-auto d-block" alt="Claravista" title="Claravista" />
+            </a>
+          </div>
+          <div class="col-lg-9 col-sm-2 col-xs-2 nav-mobile">
+            <a href="javascript:void(0);" class="icon" onclick="abreFechaMenu()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <div class="col-lg-9 col-sm-auto">
+            <ul class="nav justify-content-end menu">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="solucoes.html">Soluções e Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav class="row topmenu navbar menu-mobile" id="myLinks">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="solucoes.html">Soluções e Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <session class="">
+        <div class="row" >
+          <div class="bannerCliente col-sm "style="background-image: url('assets/img/bannerClientes.png');">
+            <img class="img-fluid txtClienteImg " src="assets/img/txtClientes.png" class=""/>
+          </div>
+        </div>
+      </session>
+
+        <div class="row blocoClientesLogo">
+          <div class="col-sm">
+            <img class="img-fluid imageblockwhite" src="assets/img/logoClientesPetz.png">
+          </div>
+          <div class="col-sm">
+            <img class="img-fluid imageblockwhite" src="assets/img/logoClientesSchutz.png">
+          </div>
+          <div class="col-sm">
+            <img class="img-fluid imageblockwhite" src="assets/img/logoClientesArezzo.png">
+          </div>
+          <div class="col-sm">
+            <img class="img-fluid imageblockwhite" src="assets/img/logoClientesKenner.png">
+          </div>
+          <div class="col-sm">
+            <img class="img-fluid imageblockwhite" src="assets/img/logoClientesRihappy.png">
+          </div>
+        </div>
+
+      <div >
+        <h2 class="titleClientes">CASES DE SUCESSO</h2> 
+      </div>
+
+      <div class="row blocoNumeros" >
+        <div class="col-sm blocoNumA">
+          <div class="col-sm">
+            <p class="txtBlocoNumA1">Cliente</br>Varejo</p>
+          </div>
+          <div class="col-sm">
+            <hr>
+          </div>
+          <div class="col-sm">
+            <p class="txtBlocoNumA2"><span class="strong">Objetivo:</span></br>
+              Interagir com clientes que</br> abandonavam seus carrinhos </br>e consequentemente não </br>finalizavam compras.</p>
+          </div>
+        </div>
+        <div class="col-sm blocoNumB">
+          <p class="txtBlocoNumB">nossos</br><span class="txtBlocoNumB2">números</span></p>
+        </div>
+        <div class="col-sm blocoNumC">
+          <div class="col-sm">
+            <p class="titleBlocoNumC">+1 milhão</p>
+            <p class="txtBlocoNumC">de carrinhos recuperados</p>
+          </div>
+          <div class="col-sm">
+            <p class="titleBlocoNumC">+5 milhões</p>
+            <p class="txtBlocoNumC">de ações por dia </br>durante a Black Friday</p>
+          </div>
+          <div class="col-sm">
+            <p class="titleBlocoNumC">7% de taxa</br> de conversão</p>
+            <p class="txtBlocoNumC">em comparação a 1,3% </br>em campanhas tradicionais</br><span>(Fonte: Forrester Research)</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="blocobtnNumeros">
+        <a href="contato.html"><button type="button" class="btnNumeros">comece agora</button></a>
+      </div>
+
+      <footer class="footer">
+        <div class="row">
+          <div class="col">
+            <p>Fone: (11) 3061.3120<br>
+            Av. Paulista, 925 - 11 andar - Jd. Paulista - São Paulo - SP - CEP: 01420-000<br>
+            &copy; Copyright 2020 CLARAVISTA. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"async></script>
+  </body>
+</html>
